@@ -6,45 +6,44 @@
     <title>
         Crystalcollector
     </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./assets/javascript/game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cherry+Cream+Soda|Sawarabi+Mincho|Sniglet&display=swap" rel="stylesheet">
+
+
 
     </head>
     
     <body>
 
-        <h1>
-            CrystalsCollector!
-        </h1>
+    <div class="jumbotron">
+        <h1 class="display-4">Crystal Collector!</h1>
+    </div>
+    
+    <div class="container">
 
-        <div class="description">
+    <div id="left_column">
 
-            <!--<p>
+            <p class="description">
                 You will be given a random number at the start of the game.
-            </p>
-            <p>
-                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
-            </p>
-            <p>
+            <br><br>
+                There are four crystals on the screen. By clicking on a crystal you will add a specific amount of points to your total score.
+            <br><br>
                 You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
-            </p>
-            <p>
+            <br><br>
                 The value of each crystal is hidden from you until you click on it.
-            </p>
-            <p>
+            <br><br>
                 Each time when the game starts, the game will change the value of each crystal.
-            </p> -->
+            </p>
 
-        </div>
+    </div>
+    <div id="right_column">
 
         <div id="startButton">
             <button>Start!</button>
-        </div>
-
-        <div id="randomNumber">
-
         </div>
 
         <div id="images">
@@ -54,13 +53,17 @@
             <img id="crystal_4" src="./assets/images/yellow_crystal.png">
         </div>
 
-        <div id="myScore">
+    <div class="keepTrack">
+
+        <div id="message">
 
         </div>
 
-    <div id="keepTrack">
+        <div id="randomNumber">
 
-        <div id="message">
+        </div>
+
+        <div id="myScore">
 
         </div>
 
@@ -71,6 +74,8 @@
         <div id="losses">
 
         </div>
+
+    </div>
 
     </div>
     

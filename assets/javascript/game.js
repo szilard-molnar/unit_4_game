@@ -60,7 +60,7 @@ function numberSum()
                 else if(randomNumber < addingUpNumber)
                 {
                     losing = true;   
-                    $("#message").append("<p>You Lost!</p>");
+                    $("#message").append("<p>You Lost...</p>");
                     losses++;
                     $("#losses").html("Losses: " + losses);
                 }
@@ -74,7 +74,7 @@ function numberSum()
             return;
             }
             addingUpNumber = addingUpNumber + crystal2;
-            $("#myScore").html("<p>Your current score is: </p>" + addingUpNumber);
+            $("#myScore").html("<p>Your current score is: " + addingUpNumber + "</p>");
                 if(randomNumber === addingUpNumber)
                 {
                     winning = true;
@@ -86,7 +86,7 @@ function numberSum()
                 else if(randomNumber < addingUpNumber)
                 {
                     losing = true;
-                    $("#message").append("<p>You Lost!</p>");
+                    $("#message").append("<p>You Lost...</p>");
                     losses++;
                     $("#losses").html("Losses: " + losses);
                 
@@ -100,7 +100,7 @@ function numberSum()
                 return;
             }
             addingUpNumber = addingUpNumber + crystal3;
-            $("#myScore").html("<p>Your current score is: </p>" + addingUpNumber);
+            $("#myScore").html("<p>Your current score is: " + addingUpNumber + "</p>");
                 if(randomNumber === addingUpNumber)
                 {
                     winning = true;
@@ -112,7 +112,7 @@ function numberSum()
                 else if(randomNumber < addingUpNumber)
                 {
                     losing = true;
-                    $("#message").append("<p>You Lost!</p>");
+                    $("#message").append("<p>You Lost...</p>");
                     losses++;
                     $("#losses").html("Losses: " + losses);
                 }
@@ -125,7 +125,7 @@ function numberSum()
                 return;
             }
             addingUpNumber = addingUpNumber + crystal4;
-            $("#myScore").html("<p>Your current score is: <p>" + addingUpNumber);
+            $("#myScore").html("<p>Your current score is: " + addingUpNumber + "</p>");
                 if(randomNumber === addingUpNumber)
                 {
                     winning = true;
@@ -137,7 +137,7 @@ function numberSum()
                 else if(randomNumber < addingUpNumber)
                 {
                     losing = true;
-                    $("#message").append("<p>You Lost!</p>");
+                    $("#message").append("<p>You Lost...</p>");
                     losses++;
                     $("#losses").html("Losses: " + losses);
             

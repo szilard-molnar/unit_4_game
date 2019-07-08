@@ -1,20 +1,75 @@
-/*body {
-    background-image: url("./assets/images/background.png");
-    background-repeat: repeat;
-} */
+.jumbotron {
+    text-align: center;
+    font-family: 'Cherry Cream Soda', cursive;
+    background-color: rgb(107, 183, 228);
+    border-radius: 0px;
+    border-bottom: 5px solid black;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: rgb(107, 228, 192)
+}
+
+.container {
+    width: 100%;
+    font-family: 'Sniglet', cursive;
+}
+
+#left_column {
+    padding: 0px;
+    width: 50%;
+    float: left;
+    border: 2px solid black;
+    height: 400px;
+}
+
+#right_column {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    border: 2px solid black;
+    height: 400px;
+}
 
 #crystal_1 {
-    width: 8%;
+    width: 20%;
+    margin: 0px 0px 0px 20px;
 }
 
 #crystal_2 {
-    width: 5%;
+    width: 12%;
+    margin: 0px 0px 0px 20px;
 }
 
 #crystal_3 {
-    width: 8%;
+    width: 20%;
+    margin: 0px 0px 0px 20px;
 }
 
 #crystal_4 {
-    width: 8%;
+    width: 20%;
+    margin: 0px 0px 0px 20px;
+}
+
+.description {
+    padding: 20px;
+}
+
+.keepTrack {
+    padding: 20px;
+}
+
+#startButton {
+    padding: 20px;
+}
+
+#message {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+#wins, #losses, #myScore {
+    text-decoration: underline;
 }
