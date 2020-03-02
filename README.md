@@ -1,4 +1,4 @@
-# unit_4_game
+# Crystal Collector
 This is a crystal collector game, testing both the logic and the memory of the player. 
 
 When the player opens the game, the following sreen shows up:
