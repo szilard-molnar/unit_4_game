@@ -16,4 +16,8 @@ If the player can figure out the logic and can remember the values, and reached 
 
 The counter on the bottom if this section will keep track of wins and loses.
 
+Click the link below to play the game:
+
+https://szilard-molnar.github.io/unit_4_game/
+
 Hope you will enjoy it!!!
