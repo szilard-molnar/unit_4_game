@@ -1,5 +1,7 @@
 # Crystal Collector
-This is a crystal collector game, testing both the logic and the memory of the player. 
+This is a crystal collector game, testing both the logic and the memory of the player.
+
+Technologies used: HTML5, CSS3, Bootstrap, JavaScript, jQuery
 
 When the player opens the game, the following sreen shows up:
 ![app screenshot](/assets/images/game-page.png)
